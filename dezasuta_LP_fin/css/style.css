@@ -1,0 +1,635 @@
+@charset "utf-8";
+/* 共通箇所 */
+.main {
+  background: #e8d9bf;
+}
+
+.container {
+  max-width: 1020px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* header */
+.header_container {
+  margin: 0 auto;
+  padding-left: 2.51%;
+  padding-right: 6.53%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.header_container .logo {
+  width: 226px;
+}
+
+.header_nav ul {
+  display: flex;
+}
+
+.header_nav ul li {
+  color: #fff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+      "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 18px;
+  width: 105px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sp_nav {
+  display: none;
+}
+
+/* スライダー */
+.slider1 img {
+  width: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots {
+  bottom: 30px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+/* Have a happy day From a cup of coffee. */
+
+.company_hope {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.main_text_en {
+  font-size: 30px;
+  margin-bottom: 53px;
+}
+
+.main_text {
+  font-size: 86px;
+  line-height: 1.17;
+  margin-bottom: 35.5px;
+}
+
+.sub_text {
+  font-size: 23px;
+  line-height: 1.65;
+}
+
+.sp_br {
+  display: none;
+}
+
+/* about us */
+.about_us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.about_us_img {
+  width: 50%;
+}
+
+.about_us_img img {
+  border-radius: 0 0 80px 0;
+}
+
+.about_us_contents {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 7.5%;
+}
+
+.about_us .title {
+  width: 272px;
+  margin-bottom: 48.5px;
+}
+
+.title_sp {
+  display: none;
+}
+
+.title_pc {
+  display: block;
+}
+
+.about_us_mainText {
+  line-height: 1.38;
+  font-size: 44px;
+  margin-bottom: 21.5px;
+}
+
+.about_us_subText {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+/* メニュー */
+.menu {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.menu .title {
+  width: 151px;
+  margin: 0 auto 40px;
+}
+
+.menu_detail_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_detail {
+  width: 30%;
+}
+
+.menu_img {
+  overflow: hidden;
+}
+
+.menu_img img {
+  border-top-right-radius: 40px;
+}
+
+.menu_detail h3 {
+  font-size: 38px;
+  padding-left: 10px;
+  margin-top: -20px;
+  margin-bottom: 17px;
+}
+
+.menu_text {
+  font-size: 17px;
+  line-height: 1.47;
+}
+
+/* ギャラリー */
+.gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gallery .title {
+  width: 245px;
+  margin: 0 auto 30px;
+}
+
+.slider2 img {
+  width: 100%;
+}
+
+/* イベント */
+.event {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.event .title {
+  width: 173px;
+  margin: 0 auto 40px;
+}
+
+.event_wrap {
+  background: #fff;
+  border: 3.5px solid #4f260b;
+  padding: 40px 0;
+}
+
+.event_wrap ul {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.event_wrap ul li {
+  line-height: 1.5;
+  font-size: 23px;
+  margin-bottom: 14.5px;
+}
+
+.event_wrap ul li:last-child {
+  margin-bottom: 0;
+}
+
+.event_wrap ul span {
+  display: inline-block;
+  text-decoration: underline;
+  padding-left: 5.47%;
+}
+
+/* アクセス */
+.access {
+  padding-top: 50px;
+}
+
+.access .title {
+  width: 213px;
+  margin: 0 auto 40px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* フッター */
+.footer {
+  display: flex;
+  padding: 80px 0;
+  position: relative;
+}
+
+.footer_logo {
+  width: 22.6%;
+  padding-right: 6%;
+  margin-top: -7px;
+}
+
+.footer_info li {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.footer_info li:last-child {
+  margin-bottom: 0;
+}
+
+.copy {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 80px;
+  color: #000;
+}
+
+.toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 125px;
+}
+
+/* 調整用css */
+@media screen and (max-width: 1024px) {
+
+  /* header */
+  .header_nav {
+      display: none;
+  }
+
+  .sp_nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      background: rgba(000, 000, 000, 0.8);
+      width: 100%;
+      z-index: 9999;
+  }
+
+  .sp_nav ul {
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+      justify-content: center;
+  }
+
+  .sp_nav li {
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+          "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+      padding: 30px 0;
+      font-weight: bold;
+  }
+
+  .sp_menu_btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10000;
+      cursor: pointer;
+      height: 30px;
+  }
+
+  .sp_menu_btn span {
+      width: 33px;
+      height: 3px;
+      display: block;
+      background: #fff;
+      position: relative;
+      top: 17px;
+      transition: 0.3s;
+  }
+
+  .sp_menu_btn span::before,
+  .sp_menu_btn span::after {
+      width: 33px;
+      height: 3px;
+      content: "";
+      background: #fff;
+      position: absolute;
+      transition: 0.3s;
+  }
+
+  .sp_menu_btn span::before {
+      bottom: 10px;
+  }
+
+  .sp_menu_btn span::after {
+      top: 10px;
+  }
+
+  /* メニューが開いた時 */
+  .open span {
+      background: transparent;
+  }
+
+  .open span::before {
+      transform: rotate(45deg);
+      bottom: 0;
+  }
+
+  .open span::after {
+      transform: rotate(135deg);
+      top: 0;
+  }
+
+  /* Have a happy day From a cup of coffee. */
+  .main_text_en {
+      font-size: 25px;
+  }
+
+  .main_text {
+      font-size: 70px;
+  }
+
+  .sub_text {
+      font-size: 20px;
+  }
+
+  /* about us */
+  .about_us_mainText {
+      font-size: 30px;
+  }
+
+  /* トップに戻る */
+  .toTop {
+      bottom: 10px;
+      right: 10px;
+      width: 100px;
+  }
+}
+
+/* スマホ用記述 */
+
+@media screen and (max-width: 767px) {
+
+  /* 共通 */
+  .container {
+      padding: 0 2.66%;
+  }
+
+  /* header */
+  .header_container .logo {
+      width: 187.51px;
+  }
+
+  /* Have a happy day From a cup of coffee. */
+  .company_hope {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      text-align: center;
+      margin: 0 calc(50% - 50vw);
+      width: 100vw;
+  }
+
+  .main_text_en {
+      font-size: 4.533vw;
+      margin-bottom: 30px;
+  }
+
+  .main_text {
+      font-size: 10.133vw;
+      margin-bottom: 21px;
+  }
+
+  .sub_text {
+      font-size: 4.267vw;
+      line-height: 1.875;
+  }
+
+  .sp_br {
+      display: block;
+  }
+
+  /* about us */
+  .title_sp {
+      display: block;
+  }
+
+  .title_pc {
+      display: none;
+  }
+
+  .about_us {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .about_us_img {
+      margin: 0 calc(50% - 50vw) 25.5px;
+      width: 100vw;
+  }
+
+  .about_us_img img {
+      border-radius: 0;
+  }
+
+  .about_us_contents {
+      width: 100%;
+      padding-left: 0;
+  }
+
+  .about_us .title {
+      width: 160px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+
+  .about_us_mainText {
+      line-height: 1.25;
+      font-size: 36px;
+      margin-bottom: 18px;
+  }
+
+  .about_us_subText {
+      font-size: 16px;
+      line-height: 1.75;
+  }
+
+  /* メニュー */
+  .menu {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .menu .title {
+      width: 87.87px;
+      margin-bottom: 20px;
+  }
+
+  .menu_detail_wrap {
+      display: block;
+      padding: 0 2.66%;
+  }
+
+  .menu_detail {
+      width: 100%;
+      margin-bottom: 50px;
+  }
+
+  .menu_detail:last-child {
+      margin-bottom: 0;
+  }
+
+  .menu_img {
+      overflow: hidden;
+  }
+
+  .menu_img img {
+      border-top-right-radius: 40px;
+  }
+
+  .menu_detail h3 {
+      font-size: 40px;
+      margin-bottom: 20px;
+  }
+
+  .menu_text {
+      font-size: 17px;
+      line-height: 1.47;
+  }
+
+  /* ギャラリー */
+  .gallery {
+      padding-top: 30px;
+      padding-bottom: 0px;
+  }
+
+  .gallery .title {
+      width: 142.26px;
+      margin: 0 auto 20px;
+  }
+
+  /* イベント */
+  .event {
+      padding-top: 30px;
+      padding-bottom: 0;
+  }
+
+  .event .title {
+      width: 100.86px;
+      margin: 0 auto 20px;
+  }
+
+  .event_wrap {
+      padding: 20px 9.17%;
+  }
+
+  .event_wrap ul li {
+      font-size: 16px;
+  }
+
+  .event_wrap ul li:last-child {
+      margin-bottom: 0;
+  }
+
+  .event_wrap ul span {
+      display: inline-block;
+      text-decoration: underline;
+      padding-left: 0;
+  }
+
+  .event_wrap ul .news_pc {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+  }
+
+  /* アクセス */
+  .access {
+      padding-top: 30px;
+  }
+
+  .access .title {
+      width: 124.07px;
+      margin: 0 auto 20px;
+  }
+
+  .map iframe {
+      width: 100%;
+      height: 191px;
+  }
+
+  /* フッター */
+
+  .footer {
+      display: block;
+      padding: 40px 0;
+  }
+
+  .footer_logo {
+      width: 226.76px;
+      padding-right: 0;
+      margin-top: 0;
+      margin-bottom: 30px;
+  }
+
+  .footer_info li {
+      margin-bottom: 10px;
+      font-size: 18px;
+  }
+
+  .footer_info li:last-child {
+      margin-bottom: 0;
+  }
+
+  .copy {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+  }
+}
+
+/*ライトボックス対応*/
+.lb-data .lb-number {
+  display: none !important;
+}
