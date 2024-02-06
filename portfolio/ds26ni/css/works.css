@@ -27,6 +27,7 @@
 }
 .tab-area {
     cursor: pointer;
+    width: 100%;
 }
 .arrow-down {
     display: inline-block;
